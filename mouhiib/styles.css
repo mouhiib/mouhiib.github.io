@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+body {
+  background-color: #131313;
+  padding: 60px;
+  vertical-align: middle;
+}
+.container {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 60px;
+}
+p {
+  margin-right: auto;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  padding: 0px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+li > a {
+  text-decoration: none;
+  color: white;
+}
+.contact {
+  float: right;
+  justify-content: end;
+}
+.imgContainer {
+  /* This is not my picture, I'll change it later*/
+  background-image: url("images/myImg.png");
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  display: inline-block;
+  margin-bottom: 40px;
+  border: 4px solid white;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 20px;
+}
+button {
+  margin-top: 40px;
+  padding: 14px 46px;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+.iconHolder {
+  height: 26px;
+  width: 26px;
+}
+.middleIconHolder {
+  margin-left: 30px;
+  margin-right: 30px;
+  background-image: url("images/twitter-logo.svg");
+  background-size: cover;
+}
+.leftIconHolder {
+  background-image: url("images/github-logo.svg");
+  background-size: cover;
+}
+.rightIconHolder {
+  background-image: url("images/linkedin-logo.svg");
+  background-size: cover;
+}
