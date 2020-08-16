@@ -39,5 +39,5 @@ function circles(x, y, radius, undercircles){
 
 setInterval(function(){
   cont.clearRect(0, 0, canvas.width, canvas.height);
-  circles(window.innerWidth/2, window.innerHeight/2, 200, 5);
+  circles(window.innerWidth/2, window.innerHeight/2, 200, 7);
 }, 1000);
